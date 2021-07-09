@@ -1,0 +1,84 @@
+body{
+    background-size: cover;
+}
+
+canvas{
+    border-radius: 10px;
+    border-top: 2px solid blue;
+    border-right: 2px solid purple;
+    border-bottom: 2px solid red;
+    border-left: 2px  purple;
+}
+
+#heading{
+    width: 100%;
+    background-color: black;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid red;
+    box-shadow: 0px 0px 38px 5px purple;
+    color: #fff;
+    padding: 10px;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  h2{
+    width: 100%;
+    background-color: black;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid red;
+    color: rgb(255, 130, 238);
+    padding: 10px;
+  }
+
+  #play{
+    width: 130px;
+    font-size: 25px;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid red;
+    border-right: 3px solid blue;
+    border-left: 3px solid red;
+    box-shadow: 0px 0px 38px purple;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    animation: glow2 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0004e6, 0 0 40px #0f00e6, 0 0 50px #0004e6, 0 0 60px #2300e6, 0 0 70px #0f00e6;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff1c1c, 0 0 50px #ff2626, 0 0 60px #ff2727, 0 0 70px #fc4040, 0 0 80px #ff4d4d;
+  }
+}
+
+canvas{
+  font-size: 25px;
+  border-top: 3px solid blue;
+  border-bottom: 3px solid red;
+  border-right: 3px solid blue;
+  border-left: 3px solid red;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  animation: glow2 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow3 {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0004e6, 0 0 40px #0f00e6, 0 0 50px #0004e6, 0 0 60px #2300e6, 0 0 70px #0f00e6;
+  }
+  to {
+    box-shadow: 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff1c1c, 0 0 50px #ff2626, 0 0 60px #ff2727, 0 0 70px #fc4040, 0 0 80px #ff4d4d;
+  }
+}
